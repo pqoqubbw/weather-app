@@ -1,0 +1,58 @@
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 200px));
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  justify-content: center;
+}
+
+.card {
+  background: #c0ccdd;
+  padding: 10px;
+  text-align: center;
+}
+
+.card-info {
+  background-color: #91bbec;
+  padding: 20px;
+}
+
+.delete {
+  background-color: #9e081e;
+}
+
+.btn-cover {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+@media (max-width: 650px) {
+  .flex {
+    flex-direction: column;
+  }
+}
+
+.home {
+  margin-bottom: 20px;
+}
+
+.weather-title {
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}

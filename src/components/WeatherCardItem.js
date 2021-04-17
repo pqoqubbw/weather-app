@@ -18,7 +18,7 @@ const WeatherCardItem = () => {
         <div className="card" key={uuidv4()}>
           <h3>{el.name}</h3>
           <img
-            src={`http://openweathermap.org/img/w/${el.weather[0].icon}.png`}
+            src={`https://openweathermap.org/img/w/${el.weather[0].icon}.png`}
             alt={el.name}
           />
           <p>today: {Math.floor(el.main.temp * 1) / 1}&deg;C</p>

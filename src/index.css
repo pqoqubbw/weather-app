@@ -14,48 +14,13 @@ code {
     monospace;
 }
 
-.container {
-  max-width: 1140px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(120px, 200px));
-  grid-column-gap: 10px;
-  grid-row-gap: 10px;
-  justify-content: center;
-}
-
-.card {
-  background: #c0ccdd;
-  padding: 10px;
-  text-align: center;
-}
-
-.card-info {
-  background-color: #91bbec;
-  padding: 20px;
-}
-
-button {
-  border: none;
-  color: white;
-  background-color: #6a94d6;
-  padding: 6px 14px;
-  font-size: 14px;
-  cursor: pointer;
-}
-
-.delete {
-  background-color: #9e081e;
-}
-
-.btn-cover {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+p,
+h3,
+h4,
+h5 {
+  padding: 0;
+  margin: 0;
+  padding-bottom: 10px;
 }
 
 input {
@@ -69,33 +34,11 @@ form {
   margin: 20px 0px;
 }
 
-.flex {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-  align-content: center;
-}
-@media (max-width: 650px) {
-  .flex {
-    flex-direction: column;
-  }
-}
-p,
-h3,
-h4,
-h5 {
-  padding: 0;
-  margin: 0;
-  padding-bottom: 10px;
-}
-
-.home {
-  margin-bottom: 20px;
-}
-
-.weather-title{
-  font-size: 30px;
-  margin-top: 30px;
-  margin-bottom: 30px;
+button {
+  border: none;
+  color: white;
+  background-color: #6a94d6;
+  padding: 6px 14px;
+  font-size: 14px;
+  cursor: pointer;
 }

@@ -1,0 +1,7 @@
+export const DELETE_WEATHER = 'DELETE_WEATHER';
+export const ADD_WEATHER = 'ADD_WEATHER';
+export const CHANGE_VALUE = 'CHANGE_VALUE';
+export const ADD_WEEK_WEATHER = 'ADD_WEEK_WEATHER';
+export const REMOVE_WEEK_WEATHER = 'REMOVE_WEEK_WEATHER';
+export const ADD_ERROR = 'ADD_ERROR';
+export const REMOVE_ERROR = 'REMOVE_ERROR';

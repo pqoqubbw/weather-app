@@ -20,7 +20,7 @@ const DetailsWeatherPage = ({ nameCity }) => {
           <div className="card-info">
             <h4>{currentWeather[0].weather[0].main}</h4>
             <img
-              src={`http://openweathermap.org/img/w/${currentWeather[0].weather[0].icon}.png`}
+              src={`https://openweathermap.org/img/w/${currentWeather[0].weather[0].icon}.png`}
               alt={currentWeather[0].name}
             />
             <p>{currentWeather[0].weather[0].description}</p>
