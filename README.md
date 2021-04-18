@@ -9,7 +9,7 @@ cd weather-app
 npm install
 npm start
 ```
-Open your browser at:  `http://localhost:9000`
+Open your browser at:  `http://localhost:3000`
 
 ### Api Services
 
