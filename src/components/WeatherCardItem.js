@@ -10,7 +10,13 @@ import { v4 as uuidv4 } from 'uuid';
 
 const WeatherCardItem = () => {
   const weather = useSelector((state) => state.reducer.weather);
+  const error = useSelector((state) => state.reducer.error);
   const dispatch = useDispatch();
+
+
+  const checkError = () => {
+    if(error) dispatch(removeError());
+  }
 
   return (
     <div className="grid">
@@ -28,13 +34,13 @@ const WeatherCardItem = () => {
               onClick={() => {
                 dispatch(deleteWeather(el.name));
                 dispatch(deleteWeekWeather(el.name));
-                dispatch(removeError());
+                checkError();
               }}
             >
               delete
             </button>
             <Link to={`/${el.name}`}>
-              <button onClick={() => dispatch(removeError())}>
+              <button onClick={() => checkError()}>
                 learn more
               </button>
             </Link>
